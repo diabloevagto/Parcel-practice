@@ -24,7 +24,13 @@ parcel 測試，參考此篇連結實做
 2. 安裝所需檔案 `npm install parcel-plugin-vue --save-dev` & `npm install vue`
 3. 執行 `npm run start`
 
+## 實驗 typescript
+1. 新增 typescript 相關檔案
+2. 直接執行 `npm run start`，parcel 會自動安裝 `typescript` 不用自己先安裝
+
 ## todo
 [ ] source map
 [ ] vue devtools 無法正確偵測到 vue 元件
 [ ] import `vue` 不能直接 from，要改寫成 `'vue/dist/vue.js'`
+[ ] typescript 沒有 HMR
+[ ] typescript 型別錯誤沒有提示，會繼續編譯
