@@ -19,5 +19,12 @@ parcel 測試，參考此篇連結實做
 2. 安裝所需檔案 `npm install babel-preset-env babel-preset-react --save-dev` & `npm install react react-dom`
 3. 執行 `npm run start`
 
+## 實驗 vue
+1. 新增 vue 相關檔案
+2. 安裝所需檔案 `npm install parcel-plugin-vue --save-dev` & `npm install vue`
+3. 執行 `npm run start`
+
 ## todo
 [ ] source map
+[ ] vue devtools 無法正確偵測到 vue 元件
+[ ] import `vue` 不能直接 from，要改寫成 `'vue/dist/vue.js'`
