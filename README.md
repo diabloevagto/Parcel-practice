@@ -6,6 +6,13 @@ parcel 測試，參考此篇連結實做
 > npm install parcel-bundler --save-dev
 
 ## 實驗原生 js
-1. 新增 html & js
+1. 新增 html & js 檔案
 2. 在 package.json 新增 start script
 3. 使用 `npm run start` 之後將會啟動 webserver & HMR
+
+## 實驗 scss
+1. 新增 scss 檔案
+2. 直接執行 `npm run start`，parcel 會自動安裝 `node-sass` 不用自己先安裝
+
+## todo
+[ ] source map
