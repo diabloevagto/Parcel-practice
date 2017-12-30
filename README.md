@@ -14,5 +14,10 @@ parcel 測試，參考此篇連結實做
 1. 新增 scss 檔案
 2. 直接執行 `npm run start`，parcel 會自動安裝 `node-sass` 不用自己先安裝
 
+## 實驗 react
+1. 新增 react 相關檔案
+2. 安裝所需檔案 `npm install babel-preset-env babel-preset-react --save-dev` & `npm install react react-dom`
+3. 執行 `npm run start`
+
 ## todo
 [ ] source map
